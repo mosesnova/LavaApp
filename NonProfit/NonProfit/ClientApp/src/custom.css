@@ -1,0 +1,70 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: small;
+}
+
+.droppable {
+    width: 300px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    background: #daeff4;
+    white-space: pre-wrap;
+}
+
+.draggable {
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 0 0;
+    border: solid 1px #454545;
+    background: white;
+    white-space: nowrap;
+}
+
+draggable:hover {
+    cursor: pointer;
+}
+
+
+.draggable_off {
+    color: #bcbcbc;
+    border: 1px solid #bcbcbc;
+    background: #ededed;
+}
+
+.dragging {
+    background: green;
+}
+
+.notes {
+    background: none;
+    margin-top: 0;
+    border: none;
+    resize: none;
+}
+
+.name {
+    background: white;
+    border: 1px solid #cdcdcd;
+    font-family: helvetica, arial, sans-serif;
+    color: #437182;
+    padding: 3px;
+    margin: 3px;
+    white-space: nowrap;
+    float: left;
+}
